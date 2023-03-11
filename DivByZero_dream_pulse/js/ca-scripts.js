@@ -7,14 +7,17 @@ function addCustomerName() {
     title.textContent = customerName;
     
     // <h1 id="tm-header" class="tm-brand text-uppercase"></h1> <!--todo: Add Customer Name-->
-
+    let header = document.getElementById('tm-header')
+    header.textContent = customerName;
     // <h2 id="introheader" class="tm-section-title mb-5 text-uppercase tm-color-primary"></h2> <!--todo: Add Customer Name-->
-
+    let introHeader = document.getElementById('tm-section-title')
+    header.textcontent = customerName
 };
 
 function toggleColors() {
     // <!-- todo: Change all classes named 'tm-white-rect' to 'tm-blue-rect' -->
-
+    let el = document.querySelectorAll = ('.tm-blue-rect')
+    color.className ('tm-white-rect')
 };
 
 function hideElement() {
